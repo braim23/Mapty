@@ -218,3 +218,19 @@ a:visited {
 .cycling-popup .leaflet-popup-content-wrapper {
   border-left: 5px solid var(--color-brand--1);
 }
+
+.leaflet-popup-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leaflet-popup-content-wrapper {
+  width: auto; /* Allow the content to be as wide as needed */
+}
+
+
+.delete-icon{
+  margin-left: auto;
+  font-size: 15px;
+}
